@@ -24,7 +24,7 @@ app.get('/', function(req, res) {
 
   var mailchimpInstance   = 'us17';
   var listUniqueId        = '8a1ee774df';
-  var mailchimpApiKey     = {YOUR_API_KEY};
+  var mailchimpApiKey     = '42e5d6f028264c1260701d5ffe38a83a';
 
 app.post('/', function (req, res) {
   const firstName = req.body.Fname;
